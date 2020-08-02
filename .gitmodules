@@ -17,3 +17,8 @@
 	path = Levelprime/server-ux
 	url = git@github.com:Levelprime/server-ux.git
 	branch = 13.0
+
+[submodule "Levelprime/stock-logistics-warehouse"]
+	path = Levelprime/stock-logistics-warehouse
+	url = git@github.com:Levelprime/stock-logistics-warehouse.git
+	branch = 13.0

@@ -2,3 +2,8 @@
 	path = levelprime/partner-contact
 	url = git@github.com:levelprime/partner-contact.git
 	branch = 13.0
+
+[submodule "Levelprime/e-commerce"]
+	path = Levelprime/e-commerce
+	url = git@github.com:Levelprime/e-commerce.git
+	branch = 13.0

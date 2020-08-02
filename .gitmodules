@@ -12,3 +12,8 @@
 	path = Levelprime/product-attribute
 	url = git@github.com:Levelprime/product-attribute.git
 	branch = 13.0
+
+[submodule "Levelprime/server-ux"]
+	path = Levelprime/server-ux
+	url = git@github.com:Levelprime/server-ux.git
+	branch = 13.0

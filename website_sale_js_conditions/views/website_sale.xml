@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="acceptance_full">
+        <span class="acceptance_full">
+            <a
+                href="https://www.justsanitise.com/privacy-policy"
+            >I accept the terms &amp; conditions of this website.</a>
+        </span>
+    </template>
+
+    <template id="accept_tc_input">
+        <div class="col-lg-12">
+            <input
+                t-attf-class="form-check-input position-relative ml-0 mr-1 #{'is-invalid' if error and error.get('accepted_legal_terms') else ''}"
+                type="checkbox"
+                name="accepted_legal_terms"
+                id="accepted_legal_terms"
+                required="required"/>
+            <label for="accepted_legal_terms" class="control-label form-check-label">
+                <t t-call="website_sale_js_conditions.acceptance_full"/>
+            </label>
+        </div>
+    </template>
+
+    <template id="acceptance_data_full">
+        <span class="acceptance_data_full">
+            <a
+                href="https://www.justsanitise.com/privacy-policy"
+            >I agree with how my data will be handled by Just Sanitise.</a>
+        </span>
+    </template>
+
+    <template id="accept_data_input">
+        <div class="col-lg-12">
+            <input
+                t-attf-class="form-check-input position-relative ml-0 mr-1 #{'is-invalid' if error and error.get('accepted_data_terms') else ''}"
+                type="checkbox"
+                name="accepted_data_terms"
+                id="accepted_data_terms"
+                required="required"/>
+            <label for="accepted_data_terms" class="control-label form-check-label">
+                <t t-call="website_sale_js_conditions.acceptance_data_full"/>
+            </label>
+        </div>
+    </template>
+
+    <template id="acceptance_marketing_full">
+        <span class="acceptance_marketing_full">
+            <a>
+                I'm happy for Just Sanitise to use my data to contact me about news and promotions.
+            </a>
+        </span>
+    </template>
+
+    <template id="accept_marketing_input">
+        <div class="col-lg-12">
+            <input
+                t-attf-class="form-check-input position-relative ml-0 mr-1 #{'is-invalid' if error and error.get('accepted_marketing_terms') else ''}"
+                type="checkbox"
+                name="accepted_marketing_terms"
+                id="accepted_marketing_terms"/>
+            <label for="accepted_marketing_terms" class="control-label form-check-label">
+                <t t-call="website_sale_js_conditions.acceptance_marketing_full"/>
+            </label>
+        </div>
+    </template>
+
+    <template id="address" inherit_id="website_sale.address">
+        <xpath expr="//div[hasclass('w-100')][last()]" position="after">
+            <t t-call="website_sale_js_conditions.accept_tc_input"/>
+            <t t-call="website_sale_js_conditions.accept_data_input"/>
+            <t t-call="website_sale_js_conditions.accept_marketing_input"/>
+        </xpath>
+    </template>
+
+</odoo>

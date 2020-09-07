@@ -32,3 +32,8 @@
 	path = LevelPrime/community-data-files
 	url = git@github.com:LevelPrime/community-data-files.git
 	branch = 13.0
+
+[submodule "LevelPrime/crm"]
+	path = LevelPrime/crm
+	url = git@github.com:LevelPrime/crm.git
+	branch = 13.0

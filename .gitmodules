@@ -23,17 +23,3 @@
 	url = git@github.com:Levelprime/stock-logistics-warehouse.git
 	branch = 13.0
 
-[submodule "LevelPrime/web"]
-	path = LevelPrime/web
-	url = git@github.com:LevelPrime/web.git
-	branch = 13.0
-
-[submodule "LevelPrime/community-data-files"]
-	path = LevelPrime/community-data-files
-	url = git@github.com:LevelPrime/community-data-files.git
-	branch = 13.0
-
-[submodule "LevelPrime/crm"]
-	path = LevelPrime/crm
-	url = git@github.com:LevelPrime/crm.git
-	branch = 13.0

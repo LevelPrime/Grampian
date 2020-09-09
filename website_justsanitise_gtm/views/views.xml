@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="website_gtm" inherit_id="web.layout">
+            <xpath expr="//head/script" position="after">
+                <!-- Google Tag Manager -->
+                <script type="text/javascript" src="/website_justsanitise_gtm/static/gtm.js"></script>
+                <!-- End Google Tag Manager -->
+            </xpath>
+
+            <xpath expr="." position="inside">
+                <!-- Google Tag Manager (noscript) -->
+                <noscript>
+                    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHF6H5V"
+                            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+                </noscript>
+                <!-- End Google Tag Manager (noscript) -->
+            </xpath>
+
+
+        </template>
+    </data>
+
+</odoo>

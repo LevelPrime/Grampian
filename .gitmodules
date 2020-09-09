@@ -1,24 +1,24 @@
-[submodule "levelprime/partner-contact"]
+[submodule "levelPrime/partner-contact"]
 	path = LevelPrime/partner-contact
 	url = git@github.com:LevelPrime/partner-contact.git
 	branch = 13.0
 
-[submodule "Levelprime/e-commerce"]
-	path = Levelprime/e-commerce
+[submodule "LevelPrime/e-commerce"]
+	path = LevelPrime/e-commerce
 	url = git@github.com:LevelPrime/e-commerce.git
 	branch = 13.0
 
-[submodule "Levelprime/product-attribute"]
-	path = Levelprime/product-attribute
+[submodule "LevelPrime/product-attribute"]
+	path = LevelPrime/product-attribute
 	url = git@github.com:LevelPrime/product-attribute.git
 	branch = 13.0
 
-[submodule "Levelprime/server-ux"]
-	path = Levelprime/server-ux
+[submodule "LevelPrime/server-ux"]
+	path = LevelPrime/server-ux
 	url = git@github.com:LevelPrime/server-ux.git
 	branch = 13.0
 
-[submodule "Levelprime/stock-logistics-warehouse"]
-	path = Levelprime/stock-logistics-warehouse
+[submodule "LevelPrime/stock-logistics-warehouse"]
+	path = LevelPrime/stock-logistics-warehouse
 	url = git@github.com:LevelPrime/stock-logistics-warehouse.git
 	branch = 13.0

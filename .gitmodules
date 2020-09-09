@@ -22,3 +22,8 @@
 	path = LevelPrime/stock-logistics-warehouse
 	url = git@github.com:LevelPrime/stock-logistics-warehouse.git
 	branch = 13.0
+
+[submodule "LevelPrime/partner-contact"]
+	path = LevelPrime/partner-contact
+	url = git@github.com:LevelPrime/partner-contact.git
+	branch = 13.0

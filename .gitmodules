@@ -27,3 +27,8 @@
 	path = LevelPrime/partner-contact
 	url = git@github.com:LevelPrime/partner-contact.git
 	branch = 13.0
+
+[submodule "LevelPrime/e-commerce"]
+	path = LevelPrime/e-commerce
+	url = git@github.com:LevelPrime/e-commerce.git
+	branch = 13.0

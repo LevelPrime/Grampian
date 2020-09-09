@@ -37,3 +37,8 @@
 	path = LevelPrime/product-attribute
 	url = git@github.com:LevelPrime/product-attribute.git
 	branch = 13.0
+
+[submodule "LevelPrime/server-ux"]
+	path = LevelPrime/server-ux
+	url = git@github.com:LevelPrime/server-ux.git
+	branch = 13.0

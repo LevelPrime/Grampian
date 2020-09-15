@@ -4,7 +4,7 @@
         <template id="website_gtm" inherit_id="web.layout">
             <xpath expr="//head/script" position="after">
                 <!-- Google Tag Manager -->
-                <script type="text/javascript" src="/website_justsanitise_gtm/static/gtm.js"></script>
+                <script type="text/javascript" src="/website_justsanitise_gtm/static/src/js/gtm.js"></script>
                 <!-- End Google Tag Manager -->
             </xpath>
 
